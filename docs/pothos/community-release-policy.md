@@ -5,8 +5,7 @@ It is not a runtime software license.
 
 ## Purpose and commitment
 
-PothOS is a free community project grounded in cognitive sovereignty and the
-continuity work described in [Memex Continuity Lab](https://devpost.com/software/memex-continuity-lab).
+PothOS is a free community project grounded in cognitive sovereignty.
 Its purpose is to preserve meaning across changing infrastructure, platforms,
 software, devices and models, reduce noise and help people recover useful signal
 for their own development and service to others.

@@ -18,8 +18,8 @@ developing them through daily use. That work became **JoshOps AI** and **PothOS*
 
 **Cognitive sovereignty. Continuity across change. Free. Always.**
 
-PothOS carries the purpose of [Memex Continuity Lab](https://devpost.com/software/memex-continuity-lab):
-preserve human meaning, source, corrections and useful work across infrastructure,
+PothOS is intended to preserve human meaning, source, corrections and useful
+work across infrastructure,
 platforms, software, devices and models. The aim is to reduce noise, recover
 useful signal and help people develop themselves and help others.
 
@@ -28,16 +28,16 @@ charging people for PothOS and exploiting their private cognitive information.
 Prospective runtime licensing is being defined. Read the
 [current release policy](docs/pothos/community-release-policy.md).
 
-**[Open the PothOS community hub](POTHOS.md)** for the mission, current release
-status and developer collaboration. Dedicated product and company repositories
-have been created under this account; their public visibility is still pending.
-The standalone runtime source has not yet been released.
+**[Open the PothOS project](https://github.com/joshuagjuarez/PothOS-by-JoshOps-AI)**
+for the mission, current release status and developer collaboration. The
+[JoshOps AI company index](https://github.com/joshuagjuarez/JoshOps-AI---Public)
+is also public. The standalone runtime source has not yet been released.
 
 The project welcomes local AI, continuity, privacy, voice and accessibility
 contributors. People should create their own ArcheAgents under their own control.
 My private ArcheAgents, voices, memories and environment remain private.
 
-[Developer thread](https://github.com/joshuagjuarez/joshuagjuarez/issues/1) ·
+[Developer thread](https://github.com/joshuagjuarez/PothOS-by-JoshOps-AI/issues/1) ·
 [Project website](https://joshops.ai/docs) ·
 [Support](docs/pothos/support.md)
 

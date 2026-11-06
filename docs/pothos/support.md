@@ -9,7 +9,7 @@ of starting a new paid subscription.
 
 | Need | Route | Visibility and current behavior |
 | --- | --- | --- |
-| Documentation, reproducible bugs or design proposals | [Public GitHub issues](https://github.com/joshuagjuarez/joshuagjuarez/issues/new/choose) | Public. Use reduced descriptions and synthetic examples. |
+| Documentation, reproducible bugs or design proposals | [Public GitHub issues](https://github.com/joshuagjuarez/PothOS-by-JoshOps-AI/issues/new/choose) | Public. Use reduced descriptions and synthetic examples. |
 | Documentation contribution | A pull request in this repository; read [contributing](contributing.md) | Public source review. No private-system access is granted. |
 | Account, historical billing or private support | [JoshOps support](https://joshops.ai/support) or [joshua@joshops.ai](mailto:joshua@joshops.ai) | The website provides an email contact. It is not a verified automatic ticket or private-stack relay. |
 | Security concern | [Private security reporting](security.md) | Keep credentials, private records and sensitive exploit details out of public issues. |

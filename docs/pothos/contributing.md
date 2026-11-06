@@ -19,7 +19,7 @@ complete runtime. Documentation corrections, accessibility feedback, privacy
 review, architecture questions and reduced reproducible reports are welcome.
 See [the roadmap](roadmap.md) for bounded work areas.
 
-Use [public GitHub issues](https://github.com/joshuagjuarez/joshuagjuarez/issues)
+Use [public GitHub issues](https://github.com/joshuagjuarez/PothOS-by-JoshOps-AI/issues)
 for nonprivate engineering discussion and pull requests for proposed changes.
 Use [private support](support.md) for account, billing or confidential concerns.
 An issue is public; never paste a memory export or personal case record into it.

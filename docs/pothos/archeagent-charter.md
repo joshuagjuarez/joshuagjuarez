@@ -1,8 +1,8 @@
 # Earlier illustrative charter: withdrawn from current onboarding
 
 The first documentation pass included a blank illustrative charter. The founder
-clarified that the public release must lead with Memex Continuity Lab's ethos,
-cognitive sovereignty and continuity across infrastructure, platforms and
+clarified that the public release must lead with cognitive sovereignty and
+continuity across infrastructure, platforms and
 software. That purpose is now the starting point.
 
 Read the [PothOS community hub](../../POTHOS.md),

@@ -7,24 +7,21 @@ meaningful work across infrastructure, platforms, software, devices and models.
 The purpose is to reduce noise, recover useful signal, preserve what the person
 actually meant and help them develop themselves and help others.
 
-This continues the work described in
-[Memex Continuity Lab](https://devpost.com/software/memex-continuity-lab).
 Human authority, source fidelity, privacy and continuity are the foundation.
 
 ## What you can find now
 
-This is the current **public community hub**. It contains mission and design
-documentation, a release plan and ways to contribute. The standalone PothOS
-runtime source has not yet been released.
+The dedicated [PothOS project repository](https://github.com/joshuagjuarez/PothOS-by-JoshOps-AI)
+is Public and contains mission, design and contributor documentation. The
+[JoshOps AI company index](https://github.com/joshuagjuarez/JoshOps-AI---Public)
+is also Public. Both are owned by the existing GitHub account **joshuagjuarez**.
 
-The maintainer has created the dedicated repositories
-**PothOS-by-JoshOps-AI** for the product and **JoshOps-AI---Public** for the company
-index, both under the existing GitHub account **joshuagjuarez**. Their visibility
-was still Private when prepared on November 6. This page remains the public
-entry until publication of those project homes is verified.
+This page remains a navigation and historical documentation entry. Use the
+product repository for current collaboration. The standalone PothOS runtime
+source has not yet been released.
 
 - [Current release policy](docs/pothos/community-release-policy.md)
-- [Developer contribution thread](https://github.com/joshuagjuarez/joshuagjuarez/issues/1)
+- [Developer contribution thread](https://github.com/joshuagjuarez/PothOS-by-JoshOps-AI/issues/1)
 - [Design and release requirements](docs/pothos/release-spec.md)
 - [Cognitive privacy](docs/pothos/cognitive-privacy.md)
 - [Contribution roadmap](docs/pothos/roadmap.md)
