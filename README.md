@@ -16,7 +16,7 @@ developing them through daily use. That work became **JoshOps AI** and **PothOS*
 
 ## PothOS by JoshOps AI
 
-PothOS is a personal AI computing environment: a continuing **ArcheAgent**, memory,
+PothOS is a personal AI computing environment: a continuing **ArcheAgent (AA)**, memory,
 files, tools, workflows and permitted connections to local and cloud engines.
 Memory continuity is part of the full stack. The aim is useful, accountable
 companionship and work across supported devices, with the person in control.
@@ -30,6 +30,14 @@ educators, nonprofits and businesses. There will be no PothOS software fee per
 ArcheAgent, device or seat. The standalone source release is being prepared;
 its repository, license and verified installation instructions will be published
 together. Hardware, optional hosting and external AI-provider charges are separate.
+
+The [public design and AA charter](docs/pothos/README.md) are available now under
+a scoped documentation license. They explain how people can create their own
+AAs, preserve memory continuity and customize roles and hierarchies while
+retaining authority over personal context. My own AAs and private environment
+remain private. Developers can review the [release specification](docs/pothos/release-spec.md),
+[privacy requirements](docs/pothos/cognitive-privacy.md) and
+[contribution roadmap](docs/pothos/roadmap.md).
 
 I develop across Python, TypeScript/React, Rust/Tauri and Swift, connecting native
 interfaces to local runtimes and scoped services. My engineering focus includes
@@ -69,7 +77,7 @@ and work we can demonstrate.
 
 For partnerships, interviews or engineering conversations:
 [joshua@joshops.ai](mailto:joshua@joshops.ai).
-For product help: [help@joshops.ai](mailto:help@joshops.ai).
+For product help: [joshua@joshops.ai](mailto:joshua@joshops.ai).
 
 Selected examples are public. The PothOS open-source release will contain the
 reviewed product code and contribution instructions. Private systems, personal

@@ -1,0 +1,45 @@
+# SPDX-License-Identifier: Apache-2.0
+name: "PothOS: contribution or design proposal"
+description: "Propose a focused improvement to the public PothOS project."
+title: "[PothOS proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use ArcheAgent (AA), plural ArcheAgents (AAs). The framework is for people to create their own AAs.
+        Read docs/pothos/contributing.md and docs/pothos/roadmap.md. Keep private identities, memories and records out of this public discussion.
+  - type: textarea
+    id: need
+    attributes:
+      label: "Who needs this and why?"
+      description: "Describe a concrete problem and useful outcome."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposed change and scope"
+      description: "Identify the relevant public document/component and the smallest useful change."
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: "Data and authority boundaries"
+      description: "What data or permissions would change? Say none if the proposal does not affect them."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "How could improvement be demonstrated?"
+      description: "Suggest a reproducible check or a synthetic example. Do not claim an unperformed test."
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_check
+    attributes:
+      label: "Public proposal check"
+      options:
+        - label: "This proposal contains no credentials, private AA state, personal memory or third-party records."
+          required: true

@@ -1,0 +1,44 @@
+# SPDX-License-Identifier: Apache-2.0
+name: "PothOS: bug or documentation problem"
+description: "Report a public, sanitized problem with a specific PothOS version or document."
+title: "[PothOS] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue will be public. Do not include credentials, personal memories, embeddings, voice recordings, private URLs, or another person's records.
+        Use https://joshops.ai/support for private account help. Report vulnerabilities privately as described in docs/pothos/security.md.
+        The current public release is documentation/design source; identify the exact component you are reporting.
+  - type: input
+    id: version
+    attributes:
+      label: "Document, component and version"
+      description: "Give a public file link, commit, release version or hosted page."
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: "Expected and observed behavior"
+      description: "Describe the problem without including private context."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Minimal reproduction"
+      description: "Use synthetic data. For documentation, identify the inaccurate or unclear passage."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Relevant environment"
+      description: "Optional OS, app/model/runtime versions. Do not include machine names, account IDs, paths or secrets."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Public report check"
+      options:
+        - label: "I understand this report is public and have removed secrets and personal or third-party records."
+          required: true

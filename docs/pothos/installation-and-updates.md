@@ -2,6 +2,10 @@
 
 ## Open-source beta status
 
+The [public design, AA charter and release specification](README.md) are available
+now under the [scoped documentation license](LICENSE_SCOPE.md). They do not
+contain a standalone runtime installer.
+
 The standalone open-source PothOS beta is being prepared. Its public repository,
 license, supported platforms and verified installation commands will be published
 together when the release is ready. This guide does not yet offer a complete
@@ -61,8 +65,9 @@ available today.
 
 Free access removes the PothOS software payment requirement. It does not grant
 access to another person's data, a private hosted service, an administrator role
-or a device. Credentials remain in the appropriate local secure store, outside
-conversation logs and public repositories.
+or a device. Released configurations must document credential storage and keep
+credentials outside conversation logs and public repositories.
+Configuration-specific storage evidence is still pending.
 
 A pull request proposes a source change. A release checks the selected source,
 builds the artifacts and publishes versioned installation and update guidance.

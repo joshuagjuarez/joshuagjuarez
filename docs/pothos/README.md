@@ -1,58 +1,114 @@
 # PothOS by JoshOps AI
 
-**Your world, continued.**
+**Your own AI computing environment. Free. Always.**
 
 PothOS brings a continuing ArcheAgent, memory, files, tools and workflows into a
-personal AI computing environment. It connects supported engines and devices
-around your work and the permissions you grant.
-
-An **ArcheAgent** is a continuing digital representative with an identity and
-responsibilities. A **champion** is the companion you designate to coordinate with
-you. Each person's companion has its own identity. **PothOS Orb** names the
-companion interface.
+personal AI computing environment. Its open-source direction is to give people
+a foundation they can study, adapt and help develop around their own lives and
+work. Start with the [product overview](https://joshops.ai/pothos), explore the
+public design, or help improve this documentation today.
 
 ## Free. Always.
 
-As of November 6, 2026, PothOS software is free for everyone: individuals,
+As of November 6, 2026, the PothOS software price is **$0** for individuals,
 educators, nonprofits, developers and businesses. There is no PothOS software
-subscription or fee per ArcheAgent, device or seat.
+subscription or fee per ArcheAgent, device or seat. The commitment is to keep
+the public PothOS software distribution free.
 
-We are preparing PothOS for release as a free, open-source beta. The goal is for
-people to inspect, modify, run, share and contribute to it under the license
-published with that release. The standalone public source repository, license
-and verified install instructions are still being prepared. This policy
-announcement is not a claim that a complete self-hosted runtime is available
-today.
+Hardware, optional hosting, third-party AI subscriptions, metered APIs and model
+licenses remain separate. If an existing screen still requests payment for
+PothOS software, contact [support](support.md) while free-access migration
+continues.
 
-Hardware, optional third-party hosting, AI-provider subscriptions, metered APIs
-and model licenses are separate. Free software does not include unlimited
-compute or a promise of permanently funded hosting.
+## A public foundation for your own AAs
 
-## Current availability
+PothOS grows from a commitment to share knowledge and useful tools, support
+learning across different backgrounds and languages, and help people understand
+one another through practical work. Opening the project invites people to
+participate in its development and shape it for needs its original developer
+could not anticipate.
 
-- The [hosted beta](https://pothos.joshops.ai) currently requires an invitation
-  and your own account.
-- Free-access migration is in progress. If an existing screen still asks you to
-  pay for PothOS software, contact [support](support.md); do not start a new paid
-  subscription.
-- Check [current downloads and availability](https://joshops.ai/download).
-  The connection kit contains setup material and plugin source, not the
-  standalone PothOS runtime or a model installer.
-- Read [installation and updates](installation-and-updates.md).
-- See the [software pricing policy](https://joshops.ai/pricing).
+An **ArcheAgent (AA)** is a named local digital worker powered by PothOS, with
+a continuing identity and defined responsibilities. **ArcheAgents (AAs)** are intended to be created and shaped
+by the people using them. The founder's own AAs and private environment remain
+private. The public project gives others a foundation for developing their own
+identities, context and ways of working. The [public AA charter](archeagent-charter.md)
+provides a blank documentation template without a private persona or working grant.
 
-## Your own environment
+The design goals include persistent AA identities, memory continuity across
+sessions, customizable roles and user-defined hierarchies. An AA's identity,
+the model powering a session, its assigned role and its actual permissions are
+distinct. A hierarchy can describe responsibility and coordination; a title or
+position grants no implicit access to files, tools, accounts or another AA's
+memory. Permissions must be explicit and enforceable.
 
-The planned standalone release must initialize a new, empty environment and work
-without the developer's accounts, credentials, private network or personal data.
-Local AI compatibility will be listed for the model, runtime, hardware and
-version actually tested.
+A **champion** is the companion a person designates to coordinate with them.
+**PothOS Orb** names the companion interface. These names describe product
+concepts; the [release specification](release-spec.md) records what each public
+release actually includes.
 
-Your account and connected services remain distinct. Connecting an external
-service requires that service's authorization. Another person's sign-in, memory,
-credentials or privileged access are never part of your setup.
+## Human sovereignty and local cognitive privacy
 
-The release will include reviewed product code, build instructions, applicable
-licenses and contribution guidance. Private systems and personal, customer and
-venture records are outside its scope. Existing private repositories and their
-history are not being made public.
+People should retain authority over their information, relationships and
+decisions. Local cognitive privacy means making the handling of personal
+thoughts, memories and context understandable and controllable. These commitments
+need visible mechanisms and evidence in each released configuration.
+
+The standalone release goals are:
+
+- Initialize an empty environment using the operator's own accounts and chosen
+  local engine, without the founder's credentials or private infrastructure.
+- Make memory sources, retained information, corrections, export and recovery
+  understandable to the person responsible for that environment.
+- Document where data is stored and which operations send it elsewhere, with
+  explicit choices for external services.
+- Enforce scoped permissions and preserve separate personal, organizational and
+  tenant environments.
+- Publish tested configurations, known limitations and recovery instructions.
+
+These are release goals, with implementation evidence to be recorded as it is
+verified. Read [cognitive privacy](cognitive-privacy.md) for the requirements and
+qualification approach.
+
+## What you can access today
+
+This public release contains **documentation and design source**. The files
+enumerated in [LICENSE_SCOPE.md](LICENSE_SCOPE.md) are licensed under
+**Apache-2.0**. That license scope does not include the private runtime. A
+standalone runtime source release is being prepared, with its own reviewed
+contents, licensing scope and verified installation instructions.
+
+The existing [hosted beta](https://pothos.joshops.ai) requires an invitation and
+your own account. The [download page](https://joshops.ai/download) lists available
+artifacts. Its connection kit contains setup material and plugin source, not the
+standalone PothOS runtime or a model installer. See
+[installation and updates](installation-and-updates.md) for current entry points.
+
+Native voice features have separate existing implementations. Their public
+privacy qualification and platform release qualification are pending. Public
+documentation will identify the behavior and limits of each qualified path.
+
+## Purpose Link
+
+[Purpose Link](https://purposelink.joshops.ai) is a separate, Houston-first
+community resource navigation project in development. Its mission is a practical example
+of the broader aim to make useful knowledge easier to reach. Future PothOS
+integration proposals must preserve each operator's authority and each tenant's
+data boundary. Usefulness and adoption across communities worldwide are
+long-term goals. Read [Purpose Link](purpose-link.md) for its separate scope and
+relationship to PothOS.
+
+## Help shape the project now
+
+Documentation pull requests and reduced, nonprivate issues are welcome now.
+Useful contributions include clearer examples, accessibility improvements,
+installation requirements, AA identity and continuity design, permission
+boundaries, privacy review, model integration requirements and reproducible
+qualification plans. The [roadmap](roadmap.md) identifies planned work; the
+[contribution guide](contributing.md) explains how to propose changes.
+
+Use a minimal example that removes credentials, personal memory, customer
+records and other people's information. For account help, private concerns or
+questions about contributing, email [joshua@joshops.ai](mailto:joshua@joshops.ai) or
+follow the [support guide](support.md). Participation starts with the public
+material available today and grows as reviewed releases become available.
