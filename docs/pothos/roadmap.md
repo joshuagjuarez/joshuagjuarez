@@ -1,5 +1,9 @@
 # Open development: status and help wanted
 
+**Current direction:** read the [PothOS community hub](../../POTHOS.md) and
+[November 6 release-policy clarification](community-release-policy.md).
+Prospective runtime terms are under review; existing documentation licenses remain effective.
+
 Observed release state: November 6, 2026. This is a contribution map, not a
 promise of completion dates or universal compatibility.
 
@@ -15,7 +19,7 @@ The connection kit is not a standalone local runtime.
 | Area | Current public qualification | Useful contribution | Evidence needed to change status |
 | --- | --- | --- | --- |
 | Independent source distribution | Complete runtime export not published | Review dependency closure, remove required private bindings, prepare a reproducible clean export | Rights/privacy-reviewed source, exact manifest and component or application build result |
-| Own AA identity and hierarchy | Design documented; independent public implementation not qualified | Clarify durable identity, customizable responsibilities and explicit permissions | New-operator/AA setup, hierarchy changes and denial tests without inherited founder state |
+| Own ArcheAgent identity and hierarchy | Design documented; independent public implementation not qualified | Clarify durable identity, customizable responsibilities and explicit permissions | New-operator/ArcheAgent setup, hierarchy changes and denial tests without inherited founder state |
 | Memory continuity | Central project purpose; standalone public recovery not demonstrated | Document storage/provenance, correction and recovery paths; create synthetic fixtures | Same-record save/correct/restart/recover result with version identity |
 | Local model support | No universal local-model compatibility claim | Add and qualify optional adapters within the existing application architecture | Exact model/runtime/hardware/version and real task results |
 | Cognitive privacy | Requirements published; configuration-specific evidence pending | Inspect data paths, network defaults, retention and support payloads | Local-only network test, isolation checks and truthful limitations |

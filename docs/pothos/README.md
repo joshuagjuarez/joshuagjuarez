@@ -1,9 +1,13 @@
 # PothOS by JoshOps AI
 
+**Current direction:** read the [PothOS community hub](../../POTHOS.md) and
+[November 6 release-policy clarification](community-release-policy.md).
+Prospective runtime terms are under review; existing documentation licenses remain effective.
+
 **Your own AI computing environment. Free. Always.**
 
 PothOS brings a continuing ArcheAgent, memory, files, tools and workflows into a
-personal AI computing environment. Its open-source direction is to give people
+personal AI computing environment. Its community source-release direction is to give people
 a foundation they can study, adapt and help develop around their own lives and
 work. Start with the [product overview](https://joshops.ai/pothos), explore the
 public design, or help improve this documentation today.
@@ -20,7 +24,7 @@ licenses remain separate. If an existing screen still requests payment for
 PothOS software, contact [support](support.md) while free-access migration
 continues.
 
-## A public foundation for your own AAs
+## Continuity and user-created ArcheAgents
 
 PothOS grows from a commitment to share knowledge and useful tools, support
 learning across different backgrounds and languages, and help people understand
@@ -28,18 +32,18 @@ one another through practical work. Opening the project invites people to
 participate in its development and shape it for needs its original developer
 could not anticipate.
 
-An **ArcheAgent (AA)** is a named local digital worker powered by PothOS, with
-a continuing identity and defined responsibilities. **ArcheAgents (AAs)** are intended to be created and shaped
-by the people using them. The founder's own AAs and private environment remain
+An **ArcheAgent** is a named local digital worker powered by PothOS, with
+a continuing identity and defined responsibilities. **ArcheAgents** are intended to be created and shaped
+by the people using them. The founder's own ArcheAgents and private environment remain
 private. The public project gives others a foundation for developing their own
-identities, context and ways of working. The [public AA charter](archeagent-charter.md)
-provides a blank documentation template without a private persona or working grant.
+identities, context and ways of working. The current project purpose is described
+in the [community hub](../../POTHOS.md).
 
-The design goals include persistent AA identities, memory continuity across
-sessions, customizable roles and user-defined hierarchies. An AA's identity,
+The design goals include persistent ArcheAgent identities, memory continuity across
+sessions, customizable roles and user-defined hierarchies. An ArcheAgent's identity,
 the model powering a session, its assigned role and its actual permissions are
 distinct. A hierarchy can describe responsibility and coordination; a title or
-position grants no implicit access to files, tools, accounts or another AA's
+position grants no implicit access to files, tools, accounts or another ArcheAgent's
 memory. Permissions must be explicit and enforceable.
 
 A **champion** is the companion a person designates to coordinate with them.
@@ -102,7 +106,7 @@ relationship to PothOS.
 
 Documentation pull requests and reduced, nonprivate issues are welcome now.
 Useful contributions include clearer examples, accessibility improvements,
-installation requirements, AA identity and continuity design, permission
+installation requirements, ArcheAgent identity and continuity design, permission
 boundaries, privacy review, model integration requirements and reproducible
 qualification plans. The [roadmap](roadmap.md) identifies planned work; the
 [contribution guide](contributing.md) explains how to propose changes.

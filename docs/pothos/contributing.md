@@ -1,11 +1,15 @@
 # Contributing to PothOS
 
+**Current direction:** read the [PothOS community hub](../../POTHOS.md) and
+[November 6 release-policy clarification](community-release-policy.md).
+Prospective runtime terms are under review; existing documentation licenses remain effective.
+
 PothOS welcomes people who want to make personal AI more useful, understandable,
 accessible and accountable to its operator.
 
-**ArcheAgent (AA)** is the product term. Use **ArcheAgents (AAs)** in the plural.
+**ArcheAgent** is the product term. Use **ArcheAgents** in the plural.
 Preserve PothOS and PothOS Orb naming. The public framework is for users to
-create their own AAs; the founder's private AAs and personal state are not
+create their own ArcheAgents; the founder's private ArcheAgents and personal state are not
 public fixtures.
 
 ## What you can contribute now
@@ -27,7 +31,7 @@ the proposed change could be checked. Link the relevant public file or version.
 Search existing issues before creating a duplicate. Use a small synthetic
 example instead of a real person's data.
 
-For changes to AA identity, memory, permissions, hierarchies, public interfaces
+For changes to ArcheAgent identity, memory, permissions, hierarchies, public interfaces
 or network behavior, explain the data flow and authority boundary. Discuss
 substantial changes before replacing an existing mechanism. Role names and
 hierarchy positions must never become implicit grants.

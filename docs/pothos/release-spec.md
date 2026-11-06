@@ -1,18 +1,22 @@
 # PothOS public release specification
 
+**Current direction:** read the [PothOS community hub](../../POTHOS.md) and
+[November 6 release-policy clarification](community-release-policy.md).
+Prospective runtime terms are under review; existing documentation licenses remain effective.
+
 Version: November 6, 2026. Status: public documentation and design source.
 This specification records the release direction and acceptance evidence required
 for each stage. It does not certify an unpublished runtime.
 
 ## Purpose and product boundary
 
-PothOS is being opened so people can create their own **ArcheAgents (AAs)**:
+PothOS is being opened so people can create their own **ArcheAgents**:
 continuing digital representatives with identities, memory continuity and
-responsibilities chosen by their operators. AAs may have customizable roles,
+responsibilities chosen by their operators. ArcheAgents may have customizable roles,
 hierarchies and interfaces. The person remains the authority over their
 environment.
 
-The reusable framework is the public product. The founder's existing AAs,
+The reusable framework is the public product. The founder's existing ArcheAgents,
 personalities, private voices, memories, relationships and operating environment
 are excluded. A new installation must initialize a new operator and empty state.
 It must not inherit the developer's accounts, identity, permissions or network.
@@ -20,8 +24,8 @@ It must not inherit the developer's accounts, identity, permissions or network.
 PothOS software is $0 for individuals and organizations, including businesses.
 Its official public software distribution is to remain free. Hardware, optional
 hosting, third-party models and paid external services have their own costs and
-licenses. An open-source software license permits commercial use and
-redistribution under its terms.
+licenses. Prospective runtime terms are being reviewed under the
+[current release policy](community-release-policy.md).
 
 ## Release stages
 
@@ -32,7 +36,7 @@ actual contents and what they can do.
 | --- | --- | --- |
 | Public design source | This README, specification, privacy requirements, roadmap and contribution material | Public files and their scoped license can be read and reused. No runtime installation is claimed. |
 | Developer source preview | Reviewed reusable components, relevant tests, dependency manifests and build instructions | File-level rights and privacy review; exact source commit; component-level setup and limitations. Publish useful cleared components without waiting for every product feature. State plainly when they cannot run the complete product. |
-| Standalone beta | A coherent local distribution with AA identity, basic continuity, permissions and a tested engine path | Clean installation without founder services, one real task, save/restart/recovery, documented network behavior and permission tests. Incomplete optional features remain labeled. |
+| Standalone beta | A coherent local distribution with ArcheAgent identity, basic continuity, permissions and a tested engine path | Clean installation without founder services, one real task, save/restart/recovery, documented network behavior and permission tests. Incomplete optional features remain labeled. |
 | Broader platform release | Additional platform packages, adapters, voice paths and migrations | Evidence for each named platform/version; appropriate signing and distribution qualification where applicable. |
 
 The current published stage is public design source. The existing invited web
@@ -44,7 +48,7 @@ runtime.
 
 | Publish after review | Keep private |
 | --- | --- |
-| Generic AA identity and role mechanisms | The founder's AA roster, personas, personal rules and private relationship history |
+| Generic ArcheAgent identity and role mechanisms | The founder's ArcheAgent roster, personas, personal rules and private relationship history |
 | Memory storage interfaces, provenance, correction and recovery mechanisms | Actual memories, conversations, embeddings, search indexes and database contents |
 | Permission enforcement, configurable hierarchies and isolation tests | Working credentials, membership grants, access tokens and private tenant maps |
 | Local runtime adapters and documented optional integrations | Personal accounts, private endpoints, machine inventory and account-specific bindings |
@@ -59,20 +63,20 @@ copies. Review generated bundles, source maps, archives and dependency assets to
 If a needed component cannot be released, remove its required dependency or mark
 the affected functionality unavailable.
 
-## AA identity, memory and authority
+## ArcheAgent identity, memory and authority
 
 The design separates these concerns:
 
 | Concern | Required behavior |
 | --- | --- |
-| AA identity | A durable identifier and user-defined name, purpose and characteristics survive supported restarts and engine changes. |
-| Engine/session | A replaceable execution binding. The model name or current chat is not the AA's identity or complete memory. |
+| ArcheAgent identity | A durable identifier and user-defined name, purpose and characteristics survive supported restarts and engine changes. |
+| Engine/session | A replaceable execution binding. The model name or current chat is not the ArcheAgent's identity or complete memory. |
 | Memory continuity | Stored records retain source, corrections and relevant time information. The operator can inspect and recover the state that actually exists. |
 | Role/hierarchy | Responsibilities and coordination chosen by the operator. A hierarchy position does not grant access by itself. |
 | Permission | Explicit, scoped grants enforced by the actual file, tool, account or service owner, with revocation and failure behavior. |
 | Human decision | The operator can pause, inspect and stop work. Protected decisions and new access remain with the authorized person. |
 
-Synthetic examples may illustrate a study AA and a project AA coordinated by a
+Synthetic examples may illustrate a study ArcheAgent and a project ArcheAgent coordinated by a
 user-chosen companion. They must start with empty memory and no working account
 grants. Examples must identify whether they are illustrative design or executable
 configuration for a particular released version.
@@ -83,12 +87,12 @@ Record the exact source commit, artifact hash, operating system, hardware,
 interpreter, model/runtime versions and commands actually used.
 
 1. Install into an empty environment with the developer's services unavailable.
-2. Create a new operator and a new AA with a user-chosen identity and role.
+2. Create a new operator and a new ArcheAgent with a user-chosen identity and role.
 3. Run one useful task through a documented local engine. Record any network
    traffic; a local-only selection must not silently fall back to a cloud service.
 4. Save a synthetic memory with its source, correct it, restart the application,
-   and recover the same AA identity and the expected current record.
-5. Demonstrate that another AA, user or tenant cannot read that record without
+   and recover the same ArcheAgent identity and the expected current record.
+5. Demonstrate that another ArcheAgent, user or tenant cannot read that record without
    an explicit permitted connection.
 6. Grant and revoke a bounded tool permission. A revoked or absent grant must
    prevent the protected operation.
@@ -143,8 +147,8 @@ Record substantive architecture and privacy decisions so contributors can
 understand why a change was accepted.
 
 Social benefit, accessibility and personal sovereignty guide the project.
-They are community goals, not an additional field-of-use restriction appended
-to an open-source license. [Purpose Link](purpose-link.md) is a separate
+The prospective runtime policy is being defined separately from the
+existing documentation license. [Purpose Link](purpose-link.md) is a separate
 application of the broader mission.
 
 See the [roadmap](roadmap.md) for current gaps and useful contribution areas.

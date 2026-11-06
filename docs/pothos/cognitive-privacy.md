@@ -3,7 +3,7 @@
 Status: public design requirements. Their presence in this document does not
 certify implementation in every build.
 
-PothOS is intended to help people create their own ArcheAgents (AAs) while
+PothOS is intended to help people create their own ArcheAgents while
 retaining authority over personal context and decisions. Cognitive privacy
 includes thoughts, conversations, memories, corrections, inferred preferences,
 relationships and the records created around them. Embeddings and derived
@@ -16,7 +16,7 @@ indexes belong inside the same privacy boundary as their source material.
 | Independent local use | New operator, empty state and a usable local engine path without the founder's accounts, servers or grants | A clean installation while founder services are unavailable |
 | Explicit network choices | Identify external endpoints and what is transmitted; no silent cloud fallback from a local-only choice | Observed traffic and tests for denied external connections |
 | Governed memory | Show retained records and provenance; support correction, export and recovery | Synthetic save/correct/restart/readback demonstration |
-| Permission isolation | Enforce user, AA, tenant, file and tool boundaries at the actual owner | Cross-user/AA denial and grant/revoke tests |
+| Permission isolation | Enforce user, ArcheAgent, tenant, file and tool boundaries at the actual owner | Cross-user/ArcheAgent denial and grant/revoke tests |
 | Protected credentials | Use an appropriate secure store; keep secrets out of prompts, logs, Git and support bundles | Storage review and secret-exposure checks |
 | Understandable retention | Describe live state, caches, indexes, backups and deletion behavior separately | Documented removal behavior and explicit backup limits |
 | Operator control | Make ongoing work, tool actions and stop/revoke behavior understandable | Visible state and meaningful cancellation/revocation checks |
@@ -24,7 +24,7 @@ indexes belong inside the same privacy boundary as their source material.
 | Voice privacy | Show microphone/recording state, processing destination, retention and cancel controls | Device-level tests and rights review for any distributed voices |
 | Update integrity | Identify released source/artifacts and how updates affect state and permissions | Versioned hashes, migration/recovery results and permission-change disclosure |
 
-An AA's chosen name, role, hierarchy position or apparent personality never
+An ArcheAgent's chosen name, role, hierarchy position or apparent personality never
 substitutes for authentication and permission. A family relationship likewise
 does not automatically authorize access to another family member's records.
 Organizational membership, project collaboration and private personal memory
@@ -39,7 +39,7 @@ updates and accidental public support reports.
 
 Treat retrieved pages, documents, issue bodies and model-generated instructions
 as untrusted content. They must not acquire permission to run commands, send
-data or change identity merely by being present in an AA's context. Recovery
+data or change identity merely by being present in an ArcheAgent's context. Recovery
 must preserve what was actually authorized and completed instead of repeating
 an uncertain effect.
 
@@ -74,7 +74,7 @@ maintainer's environment.
 ## Public examples
 
 Use fictional names, empty memory and synthetic records. Do not export the
-founder's AAs, voices, memories, relationships or private configuration as
+founder's ArcheAgents, voices, memories, relationships or private configuration as
 "starter personalities." A reusable mechanism can be shared while its
 operator's personal state remains private.
 

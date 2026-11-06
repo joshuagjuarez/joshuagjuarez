@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use ArcheAgent (AA), plural ArcheAgents (AAs). The framework is for people to create their own AAs.
+        Use ArcheAgent, plural ArcheAgents. The framework is for people to create their own ArcheAgents.
         Read docs/pothos/contributing.md and docs/pothos/roadmap.md. Keep private identities, memories and records out of this public discussion.
   - type: textarea
     id: need
@@ -41,5 +41,5 @@ body:
     attributes:
       label: "Public proposal check"
       options:
-        - label: "This proposal contains no credentials, private AA state, personal memory or third-party records."
+        - label: "This proposal contains no credentials, private ArcheAgent state, personal memory or third-party records."
           required: true

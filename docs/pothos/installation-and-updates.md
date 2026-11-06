@@ -1,18 +1,23 @@
 # Installation and updates
 
-## Open-source beta status
+**Current direction:** read the [PothOS community hub](../../POTHOS.md) and
+[November 6 release-policy clarification](community-release-policy.md).
+Prospective runtime terms are under review; existing documentation licenses remain effective.
 
-The [public design, AA charter and release specification](README.md) are available
+## Community source-release status
+
+The [public design and release specification](README.md) are available
 now under the [scoped documentation license](LICENSE_SCOPE.md). They do not
 contain a standalone runtime installer.
 
-The standalone open-source PothOS beta is being prepared. Its public repository,
+The standalone PothOS community source release is being prepared. Its public repository,
 license, supported platforms and verified installation commands will be published
 together when the release is ready. This guide does not yet offer a complete
 self-hosted installer.
 
-PothOS software is **free, always**, including personal, nonprofit and commercial
-use. There is no charge per ArcheAgent, device or seat. Hardware, optional hosting,
+The official PothOS software price is **$0, always**. Prospective runtime terms
+are under review as described in the current policy. There is no software charge
+per ArcheAgent, device or seat. Hardware, optional hosting,
 AI-provider subscriptions, metered APIs and model licenses are separate.
 
 ## Current hosted entry point
@@ -33,7 +38,7 @@ downloads.
 
 ## Independent local installations
 
-The open-source release is being prepared to start with empty user state and to
+The community source release is being prepared to start with empty user state and to
 use the operator's own hardware, model runtime and explicitly selected services.
 It must not require the developer's account, server, credentials, private network
 or personal workspace.

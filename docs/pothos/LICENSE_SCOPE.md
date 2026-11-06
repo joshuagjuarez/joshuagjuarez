@@ -29,8 +29,8 @@ other projects or any source file not listed above. The public runtime will
 carry a license covering its actual reviewed contents when those contents are
 published. Third-party material retains its own applicable terms.
 
-The project names **PothOS**, **ArcheAgent**, **AA**, **PothOS Orb** and
-**JoshOps AI**, logos, brand artwork and private AA identities are not released
+The project names **PothOS**, **ArcheAgent**, **PothOS Orb** and
+**JoshOps AI**, logos, brand artwork and private ArcheAgent identities are not released
 as trademark rights by this documentation license. Follow the license's
 attribution and trademark provisions. A fork or reused document must not imply
 official endorsement.
@@ -39,3 +39,10 @@ The [Apache license text](https://www.apache.org/licenses/LICENSE-2.0.html)
 governs use of the included material. It permits commercial use and
 redistribution under its conditions. Social benefit and local sovereignty are
 project goals, not extra restrictions appended to the license.
+
+## Current publishing direction
+
+The grant above remains effective for the enumerated documentation and template
+works. The separate [community release policy](community-release-policy.md)
+records the founder's current direction for future runtime terms. It is outside
+this allowlist, grants no runtime license and does not revoke existing rights.

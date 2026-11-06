@@ -14,43 +14,31 @@ developing them through daily use. That work became **JoshOps AI** and **PothOS*
 [LinkedIn](https://www.linkedin.com/in/joshua-gustafson-juarez-900807236) ·
 [Collaborate](https://joshops.ai/support#contact)
 
-## PothOS by JoshOps AI
+## [PothOS by JoshOps AI: start here](POTHOS.md)
 
-PothOS is a personal AI computing environment: a continuing **ArcheAgent (AA)**, memory,
-files, tools, workflows and permitted connections to local and cloud engines.
-Memory continuity is part of the full stack. The aim is useful, accountable
-companionship and work across supported devices, with the person in control.
+**Cognitive sovereignty. Continuity across change. Free. Always.**
 
-**PothOS Orb** is the companion interface's product name. The software, each
-person's companion and the engine powering a conversation have distinct roles.
+PothOS carries the purpose of [Memex Continuity Lab](https://devpost.com/software/memex-continuity-lab):
+preserve human meaning, source, corrections and useful work across infrastructure,
+platforms, software, devices and models. The aim is to reduce noise, recover
+useful signal and help people develop themselves and help others.
 
-**PothOS software is free. Always.** On November 6, 2026, I chose to prepare it
-for release as an open-source beta for everyone, including individuals,
-educators, nonprofits and businesses. There will be no PothOS software fee per
-ArcheAgent, device or seat. The standalone source release is being prepared;
-its repository, license and verified installation instructions will be published
-together. Hardware, optional hosting and external AI-provider charges are separate.
+Official PothOS software is to remain free. The founder's direction opposes
+charging people for PothOS and exploiting their private cognitive information.
+Prospective runtime licensing is being defined. Read the
+[current release policy](docs/pothos/community-release-policy.md).
 
-The [public design and AA charter](docs/pothos/README.md) are available now under
-a scoped documentation license. They explain how people can create their own
-AAs, preserve memory continuity and customize roles and hierarchies while
-retaining authority over personal context. My own AAs and private environment
-remain private. Developers can review the [release specification](docs/pothos/release-spec.md),
-[privacy requirements](docs/pothos/cognitive-privacy.md) and
-[contribution roadmap](docs/pothos/roadmap.md).
+**[Open the PothOS community hub](POTHOS.md)** for the mission, current release
+status and developer collaboration. Dedicated product and company repositories
+have been created under this account; their public visibility is still pending.
+The standalone runtime source has not yet been released.
 
-I develop across Python, TypeScript/React, Rust/Tauri and Swift, connecting native
-interfaces to local runtimes and scoped services. My engineering focus includes
-source preservation, repeatable CLI workflows, permissions, receipt-based recovery
-and practical use of existing hardware.
+The project welcomes local AI, continuity, privacy, voice and accessibility
+contributors. People should create their own ArcheAgents under their own control.
+My private ArcheAgents, voices, memories and environment remain private.
 
-The [public product documentation](https://joshops.ai/docs) explains current
-availability. Browser access is the current customer starting point; native
-customer packages and store distribution are being qualified. An internal working
-build is not an App Store or Google Play listing.
-
-[PothOS overview](docs/pothos/README.md) ·
-[Installation and updates](docs/pothos/installation-and-updates.md) ·
+[Developer thread](https://github.com/joshuagjuarez/joshuagjuarez/issues/1) ·
+[Project website](https://joshops.ai/docs) ·
 [Support](docs/pothos/support.md)
 
 ## Public work
@@ -79,7 +67,7 @@ For partnerships, interviews or engineering conversations:
 [joshua@joshops.ai](mailto:joshua@joshops.ai).
 For product help: [joshua@joshops.ai](mailto:joshua@joshops.ai).
 
-Selected examples are public. The PothOS open-source release will contain the
-reviewed product code and contribution instructions. Private systems, personal
+Selected examples are public. The PothOS community source release is being prepared with reviewed code,
+explicit terms and contribution instructions. Private systems, personal
 records and customer information remain private. This profile and my
 [portfolio](https://joshops.ai/portfolio) are the starting points for reviewing my work.
