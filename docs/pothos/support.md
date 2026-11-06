@@ -1,5 +1,9 @@
 # PothOS support
 
+PothOS software is free, always. The open-source beta and the hosted free-access
+migration are being prepared. If an older screen asks you to pay for PothOS
+software, contact support rather than starting a new paid subscription.
+
 Use [JoshOps support](https://joshops.ai/support) or email
 [help@joshops.ai](mailto:help@joshops.ai). You do not need a GitHub account.
 
@@ -11,7 +15,7 @@ Keep passwords, access tokens, recovery codes, banking details, personal memory
 exports and other people's records out of support messages and GitHub issues.
 
 GitHub is useful for public documentation and nonprivate engineering reports.
-Public issues are visible to other people. An account or billing problem belongs
+Public issues are visible to other people. An account or historical billing problem belongs
 in the private support path. The support team may prepare a reduced engineering
 report without carrying your private conversation into a public issue.
 

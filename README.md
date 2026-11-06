@@ -12,7 +12,7 @@ developing them through daily use. That work became **JoshOps AI** and **PothOS*
 [Founder portfolio](https://joshops.ai/portfolio) ·
 [JoshOps AI](https://joshops.ai) ·
 [LinkedIn](https://www.linkedin.com/in/joshua-gustafson-juarez-900807236) ·
-[Collaborate](https://joshops.ai/contact)
+[Collaborate](https://joshops.ai/support#contact)
 
 ## PothOS by JoshOps AI
 
@@ -21,9 +21,15 @@ files, tools, workflows and permitted connections to local and cloud engines.
 Memory continuity is part of the full stack. The aim is useful, accountable
 companionship and work across supported devices, with the person in control.
 
-**Memex** is the name of my own champion ArcheAgent. **PothOS Orb** is the companion
-interface's product name. The software, the individual companion and the engine
-powering a conversation each have their own role.
+**PothOS Orb** is the companion interface's product name. The software, each
+person's companion and the engine powering a conversation have distinct roles.
+
+**PothOS software is free. Always.** On November 6, 2026, I chose to prepare it
+for release as an open-source beta for everyone, including individuals,
+educators, nonprofits and businesses. There will be no PothOS software fee per
+ArcheAgent, device or seat. The standalone source release is being prepared;
+its repository, license and verified installation instructions will be published
+together. Hardware, optional hosting and external AI-provider charges are separate.
 
 I develop across Python, TypeScript/React, Rust/Tauri and Swift, connecting native
 interfaces to local runtimes and scoped services. My engineering focus includes
@@ -51,9 +57,9 @@ Start with one computer; expand to a permitted fleet when needed.
 
 ### Ventures and storytelling
 
-- **[Purpose Link](https://purposelink.joshops.ai)** — community-resource navigation.
-- **[Bare Sole Media](https://joshops.ai/ventures)** — photography, video and storytelling.
-- **[The I'mPerfection Movement](https://www.youtube.com/@Imperfectionmovement)** — my video series and founder story.
+- **[Purpose Link](https://purposelink.joshops.ai)** · community-resource navigation.
+- **[Bare Sole Media](https://joshops.ai/ventures)** · photography, video and storytelling.
+- **[The I'mPerfection Movement](https://www.youtube.com/@Imperfectionmovement)** · my video series and founder story.
 
 ## Join the Ops
 
@@ -65,6 +71,7 @@ For partnerships, interviews or engineering conversations:
 [joshua@joshops.ai](mailto:joshua@joshops.ai).
 For product help: [help@joshops.ai](mailto:help@joshops.ai).
 
-Selected examples are public. Proprietary runtime source, personal records and
-customer information stay private. This profile and my
+Selected examples are public. The PothOS open-source release will contain the
+reviewed product code and contribution instructions. Private systems, personal
+records and customer information remain private. This profile and my
 [portfolio](https://joshops.ai/portfolio) are the starting points for reviewing my work.

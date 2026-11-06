@@ -1,51 +1,70 @@
 # Installation and updates
 
-## Available entry point
+## Open-source beta status
 
-Start at [pothos.joshops.ai](https://pothos.joshops.ai) with your own account.
-The [availability page](https://joshops.ai/docs) identifies which interfaces are
-open to customers. As of 3 November 2026, native customer store packages have not
-been published. Internal development installations are not public downloads.
+The standalone open-source PothOS beta is being prepared. Its public repository,
+license, supported platforms and verified installation commands will be published
+together when the release is ready. This guide does not yet offer a complete
+self-hosted installer.
 
-## One product across devices
+PothOS software is **free, always**, including personal, nonprofit and commercial
+use. There is no charge per ArcheAgent, device or seat. Hardware, optional hosting,
+AI-provider subscriptions, metered APIs and model licenses are separate.
 
-The master app means the shared PothOS product and its capabilities. Each operating
-system receives a compatible build. Installing on a second device should let you
-sign into the same permitted account; it does not copy somebody else's account,
-credentials or private workspace.
+## Current hosted entry point
 
-Customers do not need the founder to connect to their device through Xcode.
-The native distribution work targets these ordinary delivery paths:
+The existing [PothOS web beta](https://pothos.joshops.ai) requires an invitation
+and your own account. Free-access migration is in progress. If an older screen
+still requests payment for PothOS software, use [support](support.md) rather than
+starting a new paid subscription.
+
+The [download page](https://joshops.ai/download) identifies currently available
+artifacts. The connection kit contains plugin source, setup instructions and host
+configuration examples. It does not contain the standalone native runtime,
+model weights or a model installer.
+
+Native customer packages and store distribution remain subject to their actual
+release qualification. Internal development installations are not public
+downloads.
+
+## Independent local installations
+
+The open-source release is being prepared to start with empty user state and to
+use the operator's own hardware, model runtime and explicitly selected services.
+It must not require the developer's account, server, credentials, private network
+or personal workspace.
+
+Installation instructions must identify supported operating systems, architecture,
+runtime and dependency versions, the exact tested commands, and known limits.
+A working connection on one model or host is not proof that every local AI is
+compatible.
+
+## One product across supported devices
+
+Each operating system needs a compatible build. Installing on a second device
+must preserve the operator's chosen account and scope without copying someone
+else's credentials or workspace.
 
 | Interface | Intended delivery and update path |
 | --- | --- |
-| Web | Sign in to the hosted app; services and web assets are updated centrally. |
-| iPhone and iPad | App Store installation and updates after review. TestFlight is for prerelease testing. |
-| Mac | Signed and notarized download with signed app updates, or an approved Mac App Store release. |
-| Android | Google Play installation and updates after release qualification. |
-| Windows and Linux | Platform packages and a verified update channel after qualification. |
+| Web | Existing invited hosted beta; account and service scope apply. |
+| Local source | Public source, license and verified build/run instructions when the beta is released. |
+| iPhone and iPad | App Store or TestFlight only after the relevant distribution qualification. |
+| Mac | Signed and notarized release or approved store distribution after qualification. |
+| Android | Google Play or a documented verified package after release qualification. |
+| Windows and Linux | Platform packages and a documented update channel after qualification. |
 
-These native paths are release work, not a claim that all packages are available
-today. The download page must identify the platform, version and release channel.
+These native paths are release work. They do not claim that every package is
+available today.
 
-## Your account and connections
+## Accounts, permission and updates
 
-PothOS account access, subscription entitlement, device enrollment and external
-provider connections are separate checks. A provider connection requests selected
-permissions and can be disconnected. Private credentials belong in the appropriate
-secure credential store, outside conversation history and public repositories.
+Free access removes the PothOS software payment requirement. It does not grant
+access to another person's data, a private hosted service, an administrator role
+or a device. Credentials remain in the appropriate local secure store, outside
+conversation logs and public repositories.
 
-GitHub and Tailscale accounts are not prerequisites for the browser entry.
-Optional developer or fleet connections may need their own authorization. A
-PothOS account does not automatically enroll a device in the founder's private
-network or grant access to another person's devices.
-
-## Source updates versus installed updates
-
-A pull request proposes a source change. A release process checks it, builds the
-platform packages, signs them and publishes an eligible version. The app store or
-approved updater then delivers that version. Customer devices should never have
-to compile the repository to receive an ordinary update.
-
-This is the release model being completed for PothOS. For present access or an
-installation problem, use [support](support.md).
+A pull request proposes a source change. A release checks the selected source,
+builds the artifacts and publishes versioned installation and update guidance.
+Source availability, package availability and a successful installation are
+distinct facts. Use the release notes for the actual supported path.
